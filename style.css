@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(241 , 241 , 239);
+}
+
+header {
+  font-size: 40px;
+  padding: 25px;
+  background-color: rgb(37 , 99 , 63);
+  color: white;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+img {
+  height: 70px;
+  border-radius: 50%;
+  position: fixed;
+  left: 30px;
+  top: 12px;
+}
+
+#funcionamento {
+  color: rgb(160 , 158 , 155);
+  font-size: 16px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  height: 30px;
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 5px;
+  text-align: center;
+}
+
+button {
+  padding: 6px;
+  font-size: 14px;
+  margin-left: 5px;
+  border-radius: 5px;
+  color: rgb(36 , 35 , 35);
+  background-color: rgba(207 , 211 , 214 , 0.795);
+}
+
+#criar-tarefa {
+  background-color: rgb(179 , 209 , 178);
+  border: 1px solid rgb(179 , 209 , 178);
+  box-shadow: 2px 2px 2px rgb(149 , 160 , 151);
+}
+
+#criar-tarefa:hover {
+  background-color: rgb(129 , 214 , 127);
+}
+
+#apaga-tudo:hover {
+  background-color: rgb(228 , 154 , 120);
+}
+
+#remover-finalizados:hover {
+  background-color: rgb(231 , 207 , 126);
+}
+
+#remover-selecionado:hover {
+  background-color: rgb(139 , 139 , 134);
+}
+
+ol {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 15px;
+  background-color: rgb(241 , 241 , 239);
+  margin-bottom: 15px;
+}
+
+li {
+  padding: 5px;
+  border-radius: 5px;
+  color: rgb(44 , 43 , 43);
+}
+
+li:hover {
+  color: rgb(66 , 63 , 63);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: auto;
+  background-color: rgb(119 , 150 , 126);
+  padding: 15px;
+  color: rgb(245 , 243 , 243);
+  text-align: center;
+}
+
+span {
+  font-style: oblique;
+}
